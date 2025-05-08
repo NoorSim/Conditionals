@@ -23,7 +23,7 @@ else{
   console.log('tell user to log into account')
 }
 
-//Comparison operators
+//Comparison operators e.g.
 let cash = 50
 let price = 40
 let isStoreOpen = false
@@ -32,7 +32,7 @@ if (cash >= price && isStoreOpen === true) {
   console.log('print the receipt')
 }
 
-//Logical operators
+//Logical operators e.g.
 let cash = 50
 let price = 40
 let isStoreOpen = false
@@ -40,3 +40,16 @@ let isStoreOpen = false
 if (cash >= price || isStoreOpen === true) {
   console.log('print the receipt')
 }
+
+//Ternary operators e.g.
+let hot = true
+
+hot? console.log('weather is hot outside'): console.log('weather is cold')
+
+//OR
+
+let subscribed = true
+let loggedIn = true
+
+let str = subscribed && loggedIn? 'show the video' : 'hide the video'
+console.log(str);
